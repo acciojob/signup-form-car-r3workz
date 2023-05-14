@@ -10,6 +10,64 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+<h1>Signup Form Car</h1>
+<form method="post">
+    <p>
+        &emsp; * are required fields
+    </p>
+    <div>
+        <label for="name">Name* </label><input type="text" name="name" id="name" required="required" placeholder="Name">
+    </div>
+    <br>
+    <div>
+        <label for="email">Email* </label><input type="email" name="email" id="email" required="required" placeholder="Email">
+    </div>
+    <br>
+    <div>
+        <label for="gender_m">Gender* </label><input type="radio" name="gender" id="gender_m" value="male" required="required">Male
+        <input type="radio" name="gender" id="gender_f" value="female" required="required">Female
+    </div>
+    <br>
+    <div>
+        <label for="cars">Laptop Brands </label>
+        <select id="cars" name="cars" required="required">
+            <option >--Please choose an option--</option>
+            <option value="bmw">BMW</option>
+            <option value="audi">Audi</option>
+            <option value="mercedez">Mercedez</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <label for="age">Age* </label><input type="number" name="age" id="age" min="18" max="150" required="required" placeholder="Age">
+    </div>
+    <br>
+    <div>
+        <label for="dob">DOB* </label><input type="date" name="dob" id="dob" required="required" placeholder="Date of Birth">
+    </div>
+    <br>
+    <div>
+        <label for="tel">Phone Number* </label><input type="tel" name="tel" id="tel" placeholder="xxx-xxx-xxxx">
+    </div>
+    <br>
+    <div>
+        <label for="password">Password* </label><input type="password" name="password" id="password" required="required" placeholder="Password">
+    <br>
+    </div>
+    <br>
+    <div>
+        <label for="portfolio">Portfolio </label><input type="url" name="portfolio" id="portfolio">
+    </div>
+    <br>
+    <div>
+        <input type="checkbox" name="tos" id="tos"><label for="tos"><em>I agree to the TOS</em></label>
+    </div>
+    <br>
+    <div>
+        <button type="submit" name="submit" value="Submit" >Submit</button>
+    </div>
+
+</form>
 
 </body>
 
